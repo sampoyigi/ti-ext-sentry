@@ -1,0 +1,29 @@
+{
+  "name": "sampoyigi/ti-ext-sentry",
+  "type": "tastyigniter-extension",
+  "description": "Sentry.io integration for TastyIgniter",
+  "homepage": "https://github.com/sampoyigi/ti-ext-sentry",
+  "keywords": ["tastyigniter", "laravel", "sentry.io", "sentry", "error", "logger", "php"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sam Poyigi",
+      "email": "sam@sampoyigi.com"
+    }
+  ],
+  "require": {
+    "composer/installers": "~1.0",
+    "sentry/sentry-laravel": "~2.8"
+  },
+  "extra": {
+    "tastyigniter-extension": {
+      "code": "sampoyigi.sentry",
+      "name": "Sentry",
+      "icon": {
+        "image": "icon.svg",
+        "backgroundColor": "#FFF",
+        "color": "#362d59"
+      }
+    }
+  }
+}
