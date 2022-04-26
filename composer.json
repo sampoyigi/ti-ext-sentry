@@ -12,7 +12,6 @@
     }
   ],
   "require": {
-    "composer/installers": "~1.0",
     "sentry/sentry-laravel": "~2.8"
   },
   "extra": {
