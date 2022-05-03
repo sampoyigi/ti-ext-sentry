@@ -1,7 +1,4 @@
 <?php return [
-    // If null, value will be pulled from app.debug
-    'enableTestRoute' => env('SENTRY_ENABLE_TEST_ROUTE', null),
-
     'dsn' => env('SENTRY_LARAVEL_DSN', env('SENTRY_DSN')),
 
     // capture release as git sha
