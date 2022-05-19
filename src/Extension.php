@@ -1,8 +1,8 @@
 <?php namespace SamPoyigi\Sentry;
 
+use Igniter\System\Classes\BaseExtension;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\Facades\Event;
-use System\Classes\BaseExtension;
 
 /**
  * Sentry Extension Information File
