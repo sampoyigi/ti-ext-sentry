@@ -12,7 +12,7 @@ class Extension extends BaseExtension
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/config/sentry.php', 'sentry'
+            __DIR__.'/../config/sentry.php', 'sentry'
         );
 
         $this->app->register(\Sentry\Laravel\ServiceProvider::class);
