@@ -1,6 +1,6 @@
 {
   "name": "sampoyigi/ti-ext-sentry",
-  "type": "tastyigniter-extension",
+  "type": "tastyigniter-package",
   "description": "Sentry.io integration for TastyIgniter",
   "homepage": "https://github.com/sampoyigi/ti-ext-sentry",
   "keywords": [
