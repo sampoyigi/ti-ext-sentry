@@ -20,8 +20,7 @@
     }
   ],
   "require": {
-    "tastyigniter/flame": "v4.x-dev",
-    "sentry/sentry-laravel": "~2.8"
+    "sentry/sentry-laravel": "^3.2"
   },
   "autoload": {
     "psr-4": {
