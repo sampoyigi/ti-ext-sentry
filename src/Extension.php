@@ -15,6 +15,13 @@ class Extension extends BaseExtension
             __DIR__.'/../config/sentry.php', 'sentry'
         );
 
+        config()->set('logging.channels.sentry', [
+            'driver' => 'sentry',
+            'level' => null, // The minimum monolog logging level at which this handler will be triggered
+            // For example: `\Monolog\Logger::ERROR`
+            'bubble' => true, // Whether the messages that are handled can bubble up the stack or not
+        ]);
+
         $this->app->register(\Sentry\Laravel\ServiceProvider::class);
 
         AliasLoader::getInstance()->alias('Sentry', \Sentry\Laravel\Facade::class);
