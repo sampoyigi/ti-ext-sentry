@@ -1,42 +1,42 @@
 {
-    "name": "sampoyigi/ti-ext-sentry",
-    "type": "tastyigniter-package",
-    "description": "Sentry.io integration for TastyIgniter",
-    "homepage": "https://github.com/sampoyigi/ti-ext-sentry",
-    "keywords": [
-        "tastyigniter",
-        "laravel",
-        "sentry.io",
-        "sentry",
-        "error",
-        "logger",
-        "php"
-    ],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Sam Poyigi",
-            "email": "sam@sampoyigi.com"
-        }
-    ],
-    "require": {
-        "sentry/sentry-laravel": "^3.2",
-        "tastyigniter/core": "dev-master"
-    },
-    "autoload": {
-        "psr-4": {
-            "SamPoyigi\\Sentry\\": "src/"
-        }
-    },
-    "extra": {
-        "tastyigniter-extension": {
-            "code": "sampoyigi.sentry",
-            "name": "Sentry",
-            "icon": {
-                "image": "icon.svg",
-                "backgroundColor": "#FFF",
-                "color": "#362d59"
-            }
-        }
+  "name": "sampoyigi/ti-ext-sentry",
+  "type": "tastyigniter-package",
+  "description": "Sentry.io integration for TastyIgniter",
+  "homepage": "https://github.com/sampoyigi/ti-ext-sentry",
+  "keywords": [
+    "tastyigniter",
+    "laravel",
+    "sentry.io",
+    "sentry",
+    "error",
+    "logger",
+    "php"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sam Poyigi",
+      "email": "sam@sampoyigi.com"
     }
+  ],
+  "require": {
+    "sentry/sentry-laravel": "^4.5",
+    "tastyigniter/core": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "SamPoyigi\\Sentry\\": "src/"
+    }
+  },
+  "extra": {
+    "tastyigniter-extension": {
+      "code": "sampoyigi.sentry",
+      "name": "Sentry",
+      "icon": {
+        "image": "icon.svg",
+        "backgroundColor": "#FFF",
+        "color": "#362d59"
+      }
+    }
+  }
 }
