@@ -1,7 +1,7 @@
 {
   "name": "sampoyigi/ti-ext-sentry",
   "type": "tastyigniter-package",
-  "description": "Sentry.io integration for TastyIgniter",
+  "description": "Sentry.io integration for TastyIgniter, log errors and exceptions to Sentry.io",
   "homepage": "https://github.com/sampoyigi/ti-ext-sentry",
   "keywords": [
     "tastyigniter",
@@ -31,7 +31,7 @@
   "extra": {
     "tastyigniter-extension": {
       "code": "sampoyigi.sentry",
-      "name": "Sentry",
+      "name": "Sentry for TastyIgniter",
       "icon": {
         "image": "icon.svg",
         "backgroundColor": "#FFF",
