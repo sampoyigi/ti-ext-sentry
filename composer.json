@@ -21,7 +21,7 @@
   ],
   "require": {
     "sentry/sentry-laravel": "^4.5",
-    "tastyigniter/core": "dev-master"
+    "tastyigniter/core": "^v4.0@beta"
   },
   "autoload": {
     "psr-4": {
